@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "SFProText";
+  src: url("../fonts/SFProText-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'SFProText';
+  background-color: #E5E5E5;
+  font-size: 17px;
+}
+
+#result {
+  width: 375px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 16px;
+}
+
+#result > div {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 0;
+}
+
+#result > div {
+  border-top: 1px solid #E5E7EB;
+}
+
+#result div > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 17px;
+  width: 100%;
+}
+
+#result div > div ~ span {
+  font-size: 13px;
+  color: #6B7280;
+}
+
+#result > div > span:nth-last-child(2) {
+  color: #000;
+  margin-left: auto;
+}
+
+#result > div > span:last-child {
+  color: #000;
+  margin-left: 8px;
+}
+
+.up {
+  color: rgb(0, 148, 0) !important;
+}
+
+.down {
+  color: #f00 !important;
+}
